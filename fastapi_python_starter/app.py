@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+fastapi_python_starter API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="fastapi_python_starter",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://fastapi_python_starter.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "sayerrrr",
+        "url": "http://fastapi_python_starter.com/contact/",
+        "email": "sayerrrr@fastapi_python_starter.com",
     },
     license_info={
         "name": "The Unlicense",
